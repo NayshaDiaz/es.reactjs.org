@@ -133,7 +133,7 @@ const element = (
 Es seguro insertar datos ingresados por el usuario en JSX:
 
 ```js
-const title = response.potentiallyMaliciousInput;
+const title = React.potentiallyMaliciousInput;
 // Esto es seguro:
 const element = <h1>{title}</h1>;
 ```
